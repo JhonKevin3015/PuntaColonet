@@ -1,0 +1,52 @@
+No exact restart
+set NUMRECINI = 1
+Getting croco from /HOME/users/aparco/CROCO/CALIFORNIA_LR
+Getting croco_bry.nc from /HOME/users/aparco/CROCO/CALIFORNIA_LR/CROCO_FILES
+Getting croco_grd.nc from /HOME/users/aparco/CROCO/CALIFORNIA_LR/CROCO_FILES
+Getting croco_frc.nc from /HOME/users/aparco/CROCO/CALIFORNIA_LR/CROCO_FILES
+Getting croco_blk.nc from /HOME/users/aparco/CROCO/CALIFORNIA_LR/CROCO_FILES
+Getting croco_clm.nc from /HOME/users/aparco/CROCO/CALIFORNIA_LR/CROCO_FILES
+Getting croco_runoff.nc from /HOME/users/aparco/CROCO/CALIFORNIA_LR/CROCO_FILES
+Getting croco_ini.nc from /HOME/users/aparco/CROCO/CALIFORNIA_LR/CROCO_FILES
+Getting croco_inter.in from /HOME/users/aparco/CROCO/CALIFORNIA_LR
+ 
+Writing in croco_inter.in
+USING DT       = 360
+USING NFAST    = 60
+USING NUMTIMES = 7200
+USING NUMAVG   = 240
+USING NUMHIS   = 7200
+USING NUMRST   = 7200
+No exact restart
+set NUMRECINI = 1
+ 
+Computing for Y1M1
+Tue Nov 21 13:31:05 PST 2023
+Tue Nov 21 13:31:06 PST 2023
+Test croco_Y1M1.out
+
+Warning: month not finished properly
+
+                         - OK if it is a 'cold start' i.e coming from a 3rd-party initial file
+                         - otherwise if it is a 'hot start' i.e from a restart file produced by this code: 
+                           => problem: run is not restartable
+                           => check your initial file
+ ERROR in get_all_bry: cannot find variable 'zeta_north'
+ ERROR in get_all_bry: cannot find variable 'ubar_north'
+ ERROR in get_all_bry: cannot find variable 'vbar_north'
+ ERROR in get_all_bry: cannot find variable 'u_north'
+ ERROR in get_all_bry: cannot find variable 'v_north'
+ ERROR in get_all_bry: cannot find variable 'temp_north'
+ ERROR in get_all_bry: cannot find variable 'salt_north'
+        ERROR(s) occur while examining content of netCDF file 'croco_bry.nc'.
+
+ MAIN - number of records written into history  file(s):    0
+        number of records written into restart  file(s):    0
+        number of records written into averages file(s):    0
+
+
+ ERROR: Abnormal termination: netCDF INPUT
+
+
+Month Y1M1 did not work
+

@@ -1,0 +1,25 @@
+No exact restart
+set NUMRECINI = 1
+Getting croco from /HOME/users/aparco/CROCO/CALIFORNIA_LR/CROCO_IN
+/bin/cp: cannot stat '/HOME/users/aparco/CROCO/CALIFORNIA_LR/CROCO_IN/croco': No such file or directory
+chmod: cannot access 'croco': No such file or directory
+Getting croco_bry.nc from /HOME/users/aparco/CROCO/CALIFORNIA_LR/CROCO_FILES
+Getting croco_grd.nc from /HOME/users/aparco/CROCO/CALIFORNIA_LR/CROCO_FILES
+Getting croco_frc.nc from /HOME/users/aparco/CROCO/CALIFORNIA_LR/CROCO_FILES
+Getting croco_blk.nc from /HOME/users/aparco/CROCO/CALIFORNIA_LR/CROCO_FILES
+Getting croco_clm.nc from /HOME/users/aparco/CROCO/CALIFORNIA_LR/CROCO_FILES
+Getting croco_runoff.nc from /HOME/users/aparco/CROCO/CALIFORNIA_LR/CROCO_FILES
+Getting croco_ini.nc from /HOME/users/aparco/CROCO/CALIFORNIA_LR/CROCO_FILES
+Getting croco_inter.in from /HOME/users/aparco/CROCO/CALIFORNIA_LR/CROCO_IN
+/bin/cp: cannot stat '/HOME/users/aparco/CROCO/CALIFORNIA_LR/CROCO_IN/croco_inter.in': No such file or directory
+ 
+Writing in croco_inter.in
+USING DT       = 360
+USING NFAST    = 60
+USING NUMTIMES = 7200
+USING NUMAVG   = 240
+USING NUMHIS   = 7200
+USING NUMRST   = 7200
+==
+=> ERROR : miss the croco_inter.in file
+==
